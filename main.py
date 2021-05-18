@@ -8,6 +8,6 @@ while count < 10:
   index = randint(0,4)
   instruction = simon_says[index]
 
-  print(f"Simon says...{instruction}")
+  print(f"Simon says... {instruction}")
   count = count + 1
   sleep(2)
